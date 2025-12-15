@@ -1,0 +1,40 @@
+# LEGO Assembly Error Detection System
+# Requirements for Raspberry Pi 4B and development
+
+# Core deep learning framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO models (Ultralytics)
+ultralytics>=8.0.0
+
+# Computer vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+Pillow>=10.0.0
+
+# Data science and ML
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+scipy>=1.11.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Configuration and utilities
+pyyaml>=6.0
+tqdm>=4.65.0
+
+# Raspberry Pi specific optimizations (optional)
+# onnxruntime>=1.15.0  # For ONNX export
+# tensorflow-lite>=2.13.0  # For TFLite export
+
+# Development tools (optional)
+jupyter>=1.0.0
+ipython>=8.14.0
+
+# Testing (optional)
+pytest>=7.4.0
+pytest-cov>=4.1.0
