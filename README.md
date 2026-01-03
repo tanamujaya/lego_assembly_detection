@@ -53,6 +53,18 @@ pip install -r requirements.txt
 python main.py --help
 ```
 
+## Dataset
+
+The training dataset (~6GB) is hosted on Kaggle:
+
+**Download:** https://www.kaggle.com/datasets/tanakamujaya/lego-assembly-detection-dataset
+
+### Setup Instructions
+
+1. Download the zip file from Kaggle
+2. Extract it to create a `data/` folder in the project root
+3. Your structure should look like:
+
 ## Directory Structure
 
 ```
