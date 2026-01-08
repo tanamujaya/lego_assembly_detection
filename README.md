@@ -5,7 +5,7 @@ A robust computer vision system for detecting assembly errors in LEGO models, op
 ## Features
 
 - **Interchangeable Model Architectures**: Easy switching between YOLOv8n, YOLOv8s, YOLOv5n, etc.
-- **K-Fold Cross-Validation**: 10-fold CV for robust model evaluation
+- **K-Fold Cross-Validation**: K-fold CV for robust model evaluation
 - **Standard Train/Val/Test Split**: 70/15/15 split option
 - **Few-Shot Fine-Tuning**: Adapt render-trained models to real photos
 - **Comprehensive Metrics**: Precision, Recall, mAP@0.5, mAP@0.5:0.95
@@ -216,6 +216,20 @@ python main.py simulate \
   --test-dir ./test_images \
   --num-orders 100
 ```
+
+## Run in Google Colab
+
+You can train the model directly in your browser using Google Colab — no local setup required!
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tanamujaya/lego_assembly_detection/blob/main/LEGO_Assembly_Error_Detection_Training.ipynb)
+
+The notebook includes:
+- Automatic dataset download from Kaggle
+- Model training with YOLOv8
+- Evaluation metrics and visualization
+- Model export for Raspberry Pi deployment
+
+**Requirements:** A Google account and Kaggle API credentials (free).
 
 ## Python API Usage
 
